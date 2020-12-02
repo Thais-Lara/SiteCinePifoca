@@ -1,0 +1,77 @@
+    
+/* CSS geral */
+*{
+/* Fonte */
+font-family: 'Oxygen', sans-serif;
+color: ghostwhite;
+
+    
+/* Decoração */
+text-decoration: none;
+    
+/* Box */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+align-items: center;
+}
+
+.titulos{
+    text-align: center;
+}
+
+.tituloPrincipal{
+    padding-top: 10px;
+}
+
+.pesquisar{
+    background-color: #4D5061;
+}
+
+#pesquisa_box{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    float: right;
+}
+
+body{
+    background-color: #30323D;
+}
+    
+/* Header */
+/* NavBar */
+.navbar{
+background-color: #4D5061;
+}
+/* Links Visitados */
+a:visited{
+color: #ffffff;
+}
+    
+/* Main */
+main{
+background-color: #30323D;
+display: inline-block;
+}
+
+#verMais{
+    background-color: #30323D;
+}
+/* Card */
+.card{
+padding-top: 15px;
+border-color: #24252b;
+border-width: 1px;
+background-color: #4D5061;
+text-align: justify;
+align-content: center;
+display: inline-block;
+}
+    
+/* Footer */
+footer{
+background-color: #4D5061;
+color: rgb(255, 255, 255);
+text-align: center;
+}
